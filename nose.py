@@ -6,7 +6,7 @@ from math import hypot
 #Live Video
 cap = cv2.VideoCapture(0)
 # The nose image to be masked
-nose_img = cv2.imread("pig_nose.png")
+nose_img = cv2.imread("noseImg.png")
 _, frame = cap.read()
 
 #Getting rows and colums of the picture
